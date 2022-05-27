@@ -1,0 +1,41 @@
+#<!-- METADATA START --> # DO NOT DELETE THIS LINE
+dataset:
+  # short name or label
+  name: Atlas-based Imaging Data Analysis pipeline for QC of Animal MRI (AIDAqc)
+
+  # current location of the dataset
+  location: https://github.com/mslw/AIDAqc-code
+
+  # summary of purpose and content of the dataset
+  description:
+    "It can be challenging to acquire MR images of consistent quality or to decide in the screening of large databases, which dataset is of sufficient quality for further processing. Manual screening without quantitative criteria is strictly user-dependent and not feasible for huge databases. In contrast to clinical MRI, in preclinical, animal imaging, there is no consensus on standardization of quality control measures or categorization of good vs. bad quality images. The Atlas-based Processing Pipeline for for Quality Control of Animal MRI Data(AIDAqc) was developed for measuring ans standardizing the quality of mouse brain MRI in a dynamic and novel way. AIDAqc works with T2-weighted MRI (T2w), diffusion weighted MRI or diffusion tensor imaging (DTI) and resting-state functional MRI (fMRI). Here, we developed a tool in Python to create a basic overview about MR image datasets including information about the SNR, temporal SNR, spatial resolution, and movement severity. Currently this tool covers T2w, DWI, and fMRI sequences."
+
+  # optional list of keyword/phrase
+  keyword:
+    - Neuroscience
+    - Animal MRI
+    - Quality Control
+    - Mouse
+    - Stroke
+
+author:
+  - markus.aswendt@uk-koeln.de
+  - a@example.com
+  - b@example.com
+
+funding:
+  - German Research Foundation (DFG), DFG-SFB 1451 (Project-ID 431549029)
+
+person:
+  markus.aswendt@uk-koeln.de:
+    given_name: Markus
+    last_name: Aswendt
+    orcid-id: 0000-0003-1423-0934
+  a@example.com:
+    given_name: Aref
+    last_name: Kalantari
+  b@example.com:
+    given_name: Michael
+    last_name: Diedenhofen
+
+#<!-- METADATA END -->  # DO NOT DELETE THIS LINE
